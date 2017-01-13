@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CycleView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+
+    CycleView *cycle = [CycleView initPhoto:self.view.frame imageAry:@[[UIImage imageNamed:@"1"],
+                                                                       [UIImage imageNamed:@"2"],
+                                                                       [UIImage imageNamed:@"3"],
+                                                                       [UIImage imageNamed:@"4"],
+                                                                       [UIImage imageNamed:@"5"],
+                                                                       [UIImage imageNamed:@"6"],
+                                                                       [UIImage imageNamed:@"7"]]];
+    
+    cycle.block = ^(NSInteger index){
+        NSLog(@"点击了 %lu", index);
+    };
+    [self.view addSubview:cycle];
+
+
+
+
 }
 
 

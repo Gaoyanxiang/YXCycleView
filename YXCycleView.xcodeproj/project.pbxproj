@@ -15,6 +15,14 @@
 		2ACB32221E26126E000A7F69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ACB32201E26126E000A7F69 /* LaunchScreen.storyboard */; };
 		2ACB322D1E26126E000A7F69 /* YXCycleViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACB322C1E26126E000A7F69 /* YXCycleViewTests.m */; };
 		2ACB32381E26126E000A7F69 /* YXCycleViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACB32371E26126E000A7F69 /* YXCycleViewUITests.m */; };
+		2ACB32471E2612A4000A7F69 /* CycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACB32461E2612A4000A7F69 /* CycleView.m */; };
+		2ACB32691E263465000A7F69 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ACB32661E263465000A7F69 /* 1.png */; };
+		2ACB326A1E263465000A7F69 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ACB32671E263465000A7F69 /* 2.png */; };
+		2ACB32811E263B6A000A7F69 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ACB327C1E263B6A000A7F69 /* 3.png */; };
+		2ACB32821E263B6A000A7F69 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ACB327D1E263B6A000A7F69 /* 4.png */; };
+		2ACB32831E263B6A000A7F69 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ACB327E1E263B6A000A7F69 /* 5.png */; };
+		2ACB32841E263B6A000A7F69 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ACB327F1E263B6A000A7F69 /* 6.png */; };
+		2ACB32851E263B6A000A7F69 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ACB32801E263B6A000A7F69 /* 7.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,15 @@
 		2ACB32331E26126E000A7F69 /* YXCycleViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXCycleViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ACB32371E26126E000A7F69 /* YXCycleViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXCycleViewUITests.m; sourceTree = "<group>"; };
 		2ACB32391E26126E000A7F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ACB32451E2612A4000A7F69 /* CycleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleView.h; sourceTree = "<group>"; };
+		2ACB32461E2612A4000A7F69 /* CycleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleView.m; sourceTree = "<group>"; };
+		2ACB32661E263465000A7F69 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		2ACB32671E263465000A7F69 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		2ACB327C1E263B6A000A7F69 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		2ACB327D1E263B6A000A7F69 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		2ACB327E1E263B6A000A7F69 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		2ACB327F1E263B6A000A7F69 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		2ACB32801E263B6A000A7F69 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +118,13 @@
 		2ACB32111E26126E000A7F69 /* YXCycleView */ = {
 			isa = PBXGroup;
 			children = (
+				2ACB32571E2630D0000A7F69 /* image */,
 				2ACB32151E26126E000A7F69 /* AppDelegate.h */,
 				2ACB32161E26126E000A7F69 /* AppDelegate.m */,
 				2ACB32181E26126E000A7F69 /* ViewController.h */,
 				2ACB32191E26126E000A7F69 /* ViewController.m */,
+				2ACB32451E2612A4000A7F69 /* CycleView.h */,
+				2ACB32461E2612A4000A7F69 /* CycleView.m */,
 				2ACB321B1E26126E000A7F69 /* Main.storyboard */,
 				2ACB321E1E26126E000A7F69 /* Assets.xcassets */,
 				2ACB32201E26126E000A7F69 /* LaunchScreen.storyboard */,
@@ -138,6 +158,20 @@
 				2ACB32391E26126E000A7F69 /* Info.plist */,
 			);
 			path = YXCycleViewUITests;
+			sourceTree = "<group>";
+		};
+		2ACB32571E2630D0000A7F69 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				2ACB327C1E263B6A000A7F69 /* 3.png */,
+				2ACB327D1E263B6A000A7F69 /* 4.png */,
+				2ACB327E1E263B6A000A7F69 /* 5.png */,
+				2ACB327F1E263B6A000A7F69 /* 6.png */,
+				2ACB32801E263B6A000A7F69 /* 7.png */,
+				2ACB32661E263465000A7F69 /* 1.png */,
+				2ACB32671E263465000A7F69 /* 2.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +284,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ACB32221E26126E000A7F69 /* LaunchScreen.storyboard in Resources */,
+				2ACB32821E263B6A000A7F69 /* 4.png in Resources */,
+				2ACB32691E263465000A7F69 /* 1.png in Resources */,
+				2ACB32841E263B6A000A7F69 /* 6.png in Resources */,
+				2ACB326A1E263465000A7F69 /* 2.png in Resources */,
+				2ACB32811E263B6A000A7F69 /* 3.png in Resources */,
+				2ACB32831E263B6A000A7F69 /* 5.png in Resources */,
+				2ACB32851E263B6A000A7F69 /* 7.png in Resources */,
 				2ACB321F1E26126E000A7F69 /* Assets.xcassets in Resources */,
 				2ACB321D1E26126E000A7F69 /* Main.storyboard in Resources */,
 			);
@@ -277,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ACB321A1E26126E000A7F69 /* ViewController.m in Sources */,
+				2ACB32471E2612A4000A7F69 /* CycleView.m in Sources */,
 				2ACB32171E26126E000A7F69 /* AppDelegate.m in Sources */,
 				2ACB32141E26126E000A7F69 /* main.m in Sources */,
 			);
